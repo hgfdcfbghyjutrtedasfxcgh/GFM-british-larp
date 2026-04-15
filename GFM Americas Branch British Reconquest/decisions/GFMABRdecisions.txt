@@ -1,0 +1,237 @@
+political_decisions = {
+    create_dom_VIG
+	    picture = create_dom_VIG
+		potential = {
+		    TAG = ENG
+			NOT = { has_country_flag = create_dom_VIG }
+			has_country_flag = britishreconquest
+		}
+		
+		allow = {
+		    war = no
+			owns = 60
+			owns = 219
+			owns = 218
+			owns = 186
+		}
+		
+		effect = { 
+		    set_country_flag = create_dom_VIG
+		    USA_185 = { add_core = VIG }
+			USA_211 = { add_core = VIG }
+			USA_218 = { add_core = VIG }
+			USA_219 = { add_core = VIG }
+			222 = { remove_core = VIG }
+			any_owned = {
+            limit = {
+                is_core = VIG
+            }
+            secede_province = VIG
+			ENG = { create_vassal = VIG }
+			2146 = {
+                change_province_name = "Georgetown"
+				}
+		    }
+		}
+	}
+	
+	create_dom_SCR
+	    picture = create_dom_SCR
+		potential = {
+		    TAG = ENG
+			NOT = { has_country_flag = create_dom_SCR }
+			has_country_flag = britishreconquest
+		}
+		
+		allow = {
+		    war = no
+			owns = 205
+			owns = 2556
+			owns = 188
+		}
+		
+		effect = { 
+		    set_country_flag = create_dom_SCR
+		    USA_205 = { add_core = SCR }
+			USA_2556 = { add_core = SCR }
+			USA_188 = { add_core = SCR }
+			any_owned = {
+            limit = {
+                is_core = SCR
+            }
+            secede_province = SCR
+			ENG = { create_vassal = SCR }
+			}
+		}
+	}
+	
+	create_dom_OHO
+	    picture = create_dom_OHO
+		potential = {
+		    TAG = ENG
+			NOT = { has_country_flag = create_dom_OHO }
+			has_country_flag = britishreconquest
+		}
+		
+		allow = {
+		    war = no
+			owns = 173
+			owns = 179
+			owns = 169
+			owns = 4119
+			owns = 162
+		}
+		
+		effect = { 
+		    set_country_flag = create_dom_OHO
+			4067 = { add_core = OHO }
+			158 = { add_core = OHO }
+			3616 = { add_core = OHO }
+		    USA_168 = { add_core = OHO }
+			USA_162 = { add_core = OHO }
+			USA_178 = { add_core = OHO }
+            USA_176 = { add_core = OHO }
+			USA_170 = { add_core = OHO }
+			any_owned = {
+            limit = {
+                is_core = OHO
+            }
+            secede_province = OHO
+			175	= { secede_province = ENG }  # TEMP UNTIL I MAKE INDIAN REMOVAL EVENTS
+			176	= { secede_province = ENG }
+			177	= { secede_province = ENG }
+			160	= { secede_province = ENG }
+			158	= { secede_province = ENG }
+			3616 = { secede_province = ENG }
+			4067 = { secede_province = ENG }
+			175	= { secede_province = OHO }
+			176	= { secede_province = OHO }
+			177	= { secede_province = OHO }
+			160	= { secede_province = OHO }
+			158	= { secede_province = OHO }
+			3616 = { secede_province = OHO }
+			4067 = { secede_province = OHO }
+			ENG = { create_vassal = OHO }
+			}
+		}
+	}
+	
+	create_dom_GRG
+	    picture = create_dom_GRG
+		potential = {
+		    TAG = ENG
+			NOT = { has_country_flag = create_dom_GRG }
+			has_country_flag = britishreconquest
+		}
+		
+		allow = {
+		    war = no
+			owns = 4042
+			owns = 2555
+			owns = 195
+			owns = 192
+			owns = 140
+		}
+		
+		effect = { 
+		    set_country_flag = create_dom_GRG
+			140 = { add_core = GRG }
+		    USA_200 = { add_core = GRG }
+			USA_201 = { add_core = GRG }
+			USA_196 = { add_core = GRG }
+            USA_194 = { add_core = GRG }
+			any_owned = {
+            limit = {
+                is_core = GRG
+            }
+            secede_province = GRG
+			ENG = { create_vassal = GRG }
+			}
+		}
+	}
+	
+	create_dom_PNY
+	    picture = create_dom_PNY
+		potential = {
+		    TAG = ENG
+			NOT = { has_country_flag = create_dom_PNY }
+			has_country_flag = britishreconquest
+		}
+		
+		allow = {
+		    war = no
+			owns = 222
+			owns = 223
+			owns = 230
+		}
+		
+		effect = { 
+		    set_country_flag = create_dom_PNY
+			222 = { add_core = PNY }
+		    USA_223 = { add_core = PNY }
+			USA_231 = { add_core = PNY }
+			any_owned = {
+            limit = {
+                is_core = PNY
+            }
+            secede_province = PNY
+			ENG = { create_vassal = PNY }
+			}
+		}
+	}
+	
+	create_dom_MAN
+	    picture = create_dom_MAN
+		potential = {
+		    TAG = ENG
+			NOT = { has_country_flag = create_dom_MAN }
+			has_country_flag = britishreconquest
+			MAN = { exists = no }
+		}
+		
+		allow = {
+		    war = no
+			owns = 232
+		}
+		
+		effect = { 
+		    set_country_flag = create_dom_MAN
+			any_owned = {
+            limit = {
+                is_core = MAN
+            }
+            secede_province = MAN
+			ENG = { create_vassal = MAN }
+			}
+		}
+	}
+	
+	create_dom_NEN
+	    picture = create_dom_NEN
+		potential = {
+		    TAG = ENG
+			NOT = { has_country_flag = create_dom_NEN }
+			has_country_flag = britishreconquest
+			NEN = { exists = no }
+		}
+		
+		allow = {
+		    war = no
+			owns = 243
+			owns = 247
+		}
+		
+		effect = { 
+		    set_country_flag = create_dom_NEN
+			any_owned = {
+            limit = {
+                is_core = NEN
+				NOT = { is_core = MRU }
+				NOT = { is_core = CAN }
+            }
+            secede_province = NEN
+			ENG = { create_vassal = NEN }
+			}
+		}
+	}
+}

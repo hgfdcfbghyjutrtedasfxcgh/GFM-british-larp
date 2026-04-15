@@ -1,0 +1,30 @@
+#do not touch double virginia or georgia if they get removed both of their locs break for some reason	
+VIG;The Dominion of Virginia;x;;;;
+VIG_ADJ;Virginian;x;;;;
+SCR;The Dominion of The Carolinas;x;;;;
+SCR_ADJ;Carolian;x;;;;
+OHO;The Dominion of Ohio;x;;;;
+OHO_ADJ;Ohioan;x;;;;
+GGA;The Dominion of Georgia;x;;;;
+GGA_ADJ;Georgian;x;;;;
+PNY;The Dominion of Pennsylvania;x;;;;
+PNY_ADJ;Pennsylvanian;x;;;;
+VIG;The Dominion of Virginia;x;;;;
+VIG_ADJ;Virginian;x;;;;
+GRG;The Dominion of Georgia;x;;;;
+GRG_ADJ;Georgian;x;;;;
+create_dom_VIG_title;Create the Dominion of Virginia!;x;;;;
+create_dom_VIG_desc;Many loyal citizens in our American colonies are asking for local governance. We should make a dominion to represent their wishes. (Releases as Puppet. Virginia does not get Dover.);x;;;;
+create_dom_SCR_title;Create the Dominion of The Carolinas!;x;;;;
+create_dom_SCR_desc;Many loyal citizens in our American colonies are asking for local governance. We should make a dominion to represent their wishes. (Releases as Puppet.);x;;;;
+create_dom_OHO_title;Create the Dominion of Ohio!;x;;;;
+create_dom_OHO_desc;Many loyal citizens in our American colonies are asking for local governance. We should make a dominion to represent their wishes. (Releases as Puppet.);x;;;;
+create_dom_PNY_title;Create the Dominion of Pennsylvania!;x;;;;
+create_dom_PNY_desc;Many loyal citizens in our American colonies are asking for local governance. We should make a dominion to represent their wishes. (Releases as Puppet.);x;;;;
+create_dom_GRG_title;Create the Dominion of Georgia!;x;;;;
+create_dom_GRG_desc;Many loyal citizens in our American colonies are asking for local governance. We should make a dominion to represent their wishes. (Releases as Puppet.);x;;;;
+EVTNAME17761777;You are a vassal silly.;x;;;;
+EVTDESC17761777;lmao;x;;;;
+EVTNAME17761776;Do you want to create new Dominions in America?;x;;;;
+EVTDESC17761776;A motion in Parliament requests for government support for a reconquest of the American colonies. Do you support this?;x;;;;
+#list of cities needing rename. D.C. - Georgetown. Charleston - Charlestown. Knoxville - ?. Jeffersonville - ?. Jacksonville (St Augustine) - ?. Jackson - ?. Cleveland. - ?. Greenville. - ?. Montgomery. - ?.
